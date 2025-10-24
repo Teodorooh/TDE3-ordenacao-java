@@ -50,6 +50,15 @@ __3.__ Cada execução imprimirá no console:
 
 - Um resumo textual automático.
 
+## 📊 Estrutura da Saída
+
+![Resultados CombSort](https://github.com/Teodorooh/TDE3-ordenacao-java/blob/main/CombSort.png)
+
+![Resultados GnomeSort](https://github.com/Teodorooh/TDE3-ordenacao-java/blob/main/GnomeSort.png)
+
+![Resultados BucketSort](https://github.com/Teodorooh/TDE3-ordenacao-java/blob/main/BucketSort.png)
+
+ 
 ## 🧾 Análise e Conclusões
 
 * Após a execução dos testes:
