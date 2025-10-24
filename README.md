@@ -52,20 +52,20 @@ __3.__ Cada execução imprimirá no console:
 
 ## 🧾 Análise e Conclusões
 
-Após a execução dos testes:
+* Após a execução dos testes:
 
-  O Comb Sort apresentou desempenho consistente e tempo total inferior ao Bubble Sort e Selection Sort, aproximando-se de algoritmos de complexidade O(n log n) em alguns casos.
+  - O Comb Sort apresentou desempenho consistente e tempo total inferior ao Bubble Sort e Selection Sort, aproximando-se de algoritmos de complexidade O(n log n) em alguns casos.
 
-  O Gnome Sort teve comportamento semelhante ao Insertion Sort, sendo eficiente em listas quase ordenadas, mas lento no pior caso (vetor inverso).
+  - O Gnome Sort teve comportamento semelhante ao Insertion Sort, sendo eficiente em listas quase ordenadas, mas lento no pior caso (vetor inverso).
 
-  O Bucket Sort foi o que mais se beneficiou de dados bem distribuídos (como o vetor 1), demonstrando ótimo desempenho geral, especialmente em listas grandes ou com valores concentrados em faixas previsíveis.
+  - O Bucket Sort foi o que mais se beneficiou de dados bem distribuídos (como o vetor 1), demonstrando ótimo desempenho geral, especialmente em listas grandes ou com valores concentrados em faixas previsíveis.
 
-O experimento confirma que:
+* O experimento confirma que:
 
-  O Comb Sort é uma evolução direta do Bubble Sort, mantendo simplicidade e ganhando velocidade por meio do ajuste de "gap" (intervalo).
+  - O Comb Sort é uma evolução direta do Bubble Sort, mantendo simplicidade e ganhando velocidade por meio do ajuste de "gap" (intervalo).
 
-  O Gnome Sort é didaticamente interessante, mas pouco eficiente em vetores desordenados.
+  - O Gnome Sort é didaticamente interessante, mas pouco eficiente em vetores desordenados.
 
-  O Bucket Sort demonstra a melhor eficiência geral no conjunto testado, sendo ideal quando os dados possuem distribuição uniforme e conhecida.
-
-  Portanto, o Bucket Sort foi o melhor desempenho geral, seguido de perto pelo Comb Sort, enquanto o Gnome Sort destacou-se apenas nos casos quase ordenados.
+  - O Bucket Sort demonstra a melhor eficiência geral no conjunto testado, sendo ideal quando os dados possuem distribuição uniforme e conhecida.
+ 
+ * Portanto, o Bucket Sort foi o melhor desempenho geral, seguido de perto pelo Comb Sort, enquanto o Gnome Sort destacou-se apenas nos casos quase ordenados.
